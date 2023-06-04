@@ -35,7 +35,7 @@ if(fano.value.length == 0 || Number(fano.value) > ano) {
     } else if(fsex[1].checked){
         genero = 'Muher'
        
-        if(idade >= 0 && idade < 10){
+        if(idade >= 0 && idade < 12){
             // Criança
             img.setAttribute('src', 'mcr.png')
         }else if (idade < 21) {
